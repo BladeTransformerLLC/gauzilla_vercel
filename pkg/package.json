@@ -1,0 +1,23 @@
+{
+  "name": "gauzilla",
+  "collaborators": [
+    "Yoshi Sato <https://www.satyoshi.com>"
+  ],
+  "description": "Gauzilla: a 3D Gaussian Splatting renderer written in Rust for WebAssembly with lock-free multithreading",
+  "version": "0.1.0",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/BladeTransformerLLC/gauzilla"
+  },
+  "files": [
+    "gauzilla_bg.wasm",
+    "gauzilla.js",
+    "gauzilla.d.ts"
+  ],
+  "module": "gauzilla.js",
+  "types": "gauzilla.d.ts",
+  "sideEffects": [
+    "./snippets/*"
+  ]
+}
